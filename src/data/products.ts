@@ -1,5 +1,5 @@
 /* =============================================================================
- *  VELMORA · PRODUCT CATALOG
+ *  FERNLACE · PRODUCT CATALOG
  *  Every product, price, size, ingredient list and review. Images come from
  *  `images` in src/content.ts; categories and concerns are the ids defined in
  *  content.ts → shop.categories / shop.concerns.

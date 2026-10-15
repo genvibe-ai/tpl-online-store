@@ -1,6 +1,6 @@
 # Notice
 
-Velmora is a GenVibe online store template.
+Fernlace is a GenVibe online store template.
 
 ## Upstream
 
@@ -31,6 +31,6 @@ Tailwind CSS (MIT).
 
 ## Fictional content
 
-"Velmora" and every product, price, ingredient claim, review, reviewer, person, quote, number,
+"Fernlace" and every product, price, ingredient claim, review, reviewer, person, quote, number,
 address and company in this template are fictional. The store is a demo: no payments are taken
 and no orders are fulfilled.

@@ -1,5 +1,5 @@
 ## What this app is
-Velmora: a premium online store template for a fictional botanical skincare brand. Vite 8, React 19, TypeScript, Tailwind CSS 4, React Router 7, Zustand, motion, lucide-react. Runs fully in the browser on mock data: no backend, no env vars. Ported from GoCart (MIT).
+Fernlace: a premium online store template for a fictional botanical skincare brand. Vite 8, React 19, TypeScript, Tailwind CSS 4, React Router 7, Zustand, motion, lucide-react. Runs fully in the browser on mock data: no backend, no env vars. Ported from GoCart (MIT).
 
 ## Built so far
 - Home: full-bleed photo hero, promise strip, bestsellers carousel, shop-by-concern arches, ingredient story with numbered hotspots, reviews, journal teaser, newsletter.

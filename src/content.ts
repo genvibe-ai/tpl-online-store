@@ -1,5 +1,5 @@
 /* =============================================================================
- *  VELMORA · STORE CONTENT
+ *  FERNLACE · STORE CONTENT
  *  This is the ONE file to edit for the brand: every word, color, image path,
  *  store setting (shipping, discount codes) and page copy lives here.
  *  Components in src/components and src/pages only read it.
@@ -91,17 +91,17 @@ export const images = {
 
 /* ── Brand, SEO & store settings ────────────────────────────────────────── */
 export const site = {
-  name: 'Velmora',
-  title: 'Velmora · Botanical skincare, slowly grown',
+  name: 'Fernlace',
+  title: 'Fernlace · Botanical skincare, slowly grown',
   description:
     'Small-batch botanical skincare made with olive leaf, calendula, oat and fig. Serums, creams and oils for calm, nourished skin, bottled in glass.',
-  /** Live domain for SEO, e.g. "https://velmora.com". Leave empty to use the current domain. */
+  /** Live domain for SEO, e.g. "https://fernlace.com". Leave empty to use the current domain. */
   url: '',
   locale: 'en-US',
   currency: 'USD',
   socialImage: images.hero,
   /** localStorage key for the bag and past orders. */
-  storageKey: 'velmora-store',
+  storageKey: 'fernlace-store',
 }
 
 export const store = {
@@ -121,7 +121,7 @@ export const store = {
 }
 
 export const contact = {
-  email: 'hello@velmora.example',
+  email: 'hello@fernlace.example',
   phone: '+1 (805) 555-0142',
   address: '41 Orchard Row, Larkhaven, CA 93099',
   hours: 'Monday to Friday, 9am to 5pm PT',
@@ -283,7 +283,7 @@ export const home = {
     id: 'ingredients',
     eyebrow: 'From the field',
     heading: 'Five botanicals. *Nothing* we can’t explain.',
-    body: 'Every Velmora formula is built around a handful of plants we know by name, grown by farms we visit each season. We cold-press and slow-steep them in small batches, so what reaches your skin is as close to the field as glass allows.',
+    body: 'Every Fernlace formula is built around a handful of plants we know by name, grown by farms we visit each season. We cold-press and slow-steep them in small batches, so what reaches your skin is as close to the field as glass allows.',
     image: images.botanicals,
     /** x/y place each numbered marker on the photo, in % from the top-left corner. */
     botanicals: [
@@ -313,7 +313,7 @@ export const home = {
     cta: { label: 'All stories', href: '/journal' },
   },
   newsletter: {
-    eyebrow: 'Letters from Velmora',
+    eyebrow: 'Letters from Fernlace',
     heading: 'Slow beauty, *in your inbox*.',
     text: 'Seasonal rituals, new botanicals and early access to small batches, about twice a month. Plus 10% off your first order.',
     label: 'Email address',
@@ -483,7 +483,7 @@ export const confirmation = {
 export const journal = {
   eyebrow: 'The journal',
   title: 'Notes from the *field*',
-  intro: 'Rituals, ingredients and the farms behind them, written by the people who make Velmora.',
+  intro: 'Rituals, ingredients and the farms behind them, written by the people who make Fernlace.',
   shopTheStory: 'Shop the *story*',
   moreStories: 'More stories',
   back: 'All stories',
@@ -572,7 +572,7 @@ export const pages = [
     intro: 'Answers to what we are asked most. Can’t find yours? Write to us any time.',
     faqs: [
       { q: 'Are your products suitable for sensitive skin?', a: 'Yes. Every formula is free of added fragrance and dermatologist-tested on sensitive skin. If you are unsure where to begin, start with the Discovery Set.' },
-      { q: 'Is Velmora vegan and cruelty-free?', a: 'All of our formulas are vegan, and we never test on animals at any stage, nor do our suppliers.' },
+      { q: 'Is Fernlace vegan and cruelty-free?', a: 'All of our formulas are vegan, and we never test on animals at any stage, nor do our suppliers.' },
       { q: 'Can I use the serum during pregnancy?', a: 'Bakuchiol is generally considered a gentle alternative to retinol, but every pregnancy is different. Please check with your doctor before adding a new product.' },
       { q: 'How long do the products last once opened?', a: 'Twelve months for creams, serums and oils; eighteen months for the lip balm. Small batches mean every product reaches you fresh.' },
       { q: 'Do you offer refills?', a: 'Refill pouches for the Barrier Cream and Toning Mist are coming soon. Join our letters to hear first.' },
@@ -608,7 +608,7 @@ export const footer = {
       ],
     },
     {
-      title: 'Velmora',
+      title: 'Fernlace',
       links: [
         { label: 'Our ingredients', href: '/#ingredients' },
         { label: 'Journal', href: '/journal' },
@@ -618,7 +618,7 @@ export const footer = {
   ] satisfies { title: string; links: Link[] }[],
   socialTitle: 'Follow',
   contactTitle: 'Say hello',
-  legal: '© {year} Velmora. A fictional brand for a GenVibe store template.',
+  legal: '© {year} Fernlace. A fictional brand for a GenVibe store template.',
   demoNote: 'Demo store: no payments are taken and no orders ship.',
 }
 

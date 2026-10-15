@@ -1,9 +1,9 @@
 {
-  "name": "velmora-online-store",
+  "name": "fernlace-online-store",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Velmora: a premium botanical skincare store template by GenVibe. Storefront ported from GoCart by GreatStackDev (MIT).",
+  "description": "Fernlace: a premium botanical skincare store template by GenVibe. Storefront ported from GoCart by GreatStackDev (MIT).",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

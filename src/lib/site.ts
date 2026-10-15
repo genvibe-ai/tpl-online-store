@@ -54,7 +54,7 @@ function setJsonLd(id: string, data: unknown) {
   script.textContent = JSON.stringify(data)
 }
 
-/** Per-page title, description and share image ("Fig Leaf Renewal Serum · Velmora"). */
+/** Per-page title, description and share image ("Fig Leaf Renewal Serum · Fernlace"). */
 export function usePageMeta({ title, description, image }: { title?: string; description?: string; image?: Img }) {
   const imageSrc = (image ?? site.socialImage).src
   useEffect(() => {
