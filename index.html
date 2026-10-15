@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <!-- Static fallbacks for link previews. Live titles and meta tags are set per page from src/content.ts. -->
+    <title>Velmora · Botanical skincare, slowly grown</title>
+    <meta
+      name="description"
+      content="Small-batch botanical skincare made with olive leaf, calendula, oat and fig. Serums, creams and oils for calm, nourished skin, bottled in glass."
+    />
+    <meta name="theme-color" content="#F7F1EA" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Velmora" />
+    <meta property="og:title" content="Velmora · Botanical skincare, slowly grown" />
+    <meta
+      property="og:description"
+      content="Small-batch botanical skincare made with olive leaf, calendula, oat and fig. Serums, creams and oils for calm, nourished skin, bottled in glass."
+    />
+    <meta property="og:image" content="/images/store-hero.webp" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Home page only: start loading the hero photo (content.ts → home.hero.image) before the app boots. -->
+    <script>
+      if (location.pathname === '/') {
+        var hero = document.createElement('link')
+        hero.rel = 'preload'
+        hero.as = 'image'
+        hero.href = '/images/store-hero.webp'
+        hero.setAttribute('fetchpriority', 'high')
+        document.head.appendChild(hero)
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
